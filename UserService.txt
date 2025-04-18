@@ -2,3 +2,5 @@
 Processing the data
 
 create an avatar for user
+
+feature 2 branch has been added to the gitHub repository
