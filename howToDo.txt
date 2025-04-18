@@ -1,0 +1,103 @@
+PS C:\Users\omara\Desktop\git-course> git branch
+  feature1
+  feature2
+* feature3
+  main
+PS C:\Users\omara\Desktop\git-course> git branch -d feature3
+error: cannot delete branch 'feature3' used by worktree at 'C:/Users/omara/Desktop/git-course'
+PS C:\Users\omara\Desktop\git-course> git branch -D  feature3
+error: cannot delete branch 'feature3' used by worktree at 'C:/Users/omara/Desktop/git-course'
+PS C:\Users\omara\Desktop\git-course> git branch 
+  feature1
+  feature2
+* feature3
+  main
+PS C:\Users\omara\Desktop\git-course> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\omara\Desktop\git-course> git branch
+  feature1
+  feature2
+  feature3
+* main
+PS C:\Users\omara\Desktop\git-course> git branch -d feature3
+error: the branch 'feature3' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D feature3'
+hint: Disable this message with "git config advice.forceDeleteBranch false"
+PS C:\Users\omara\Desktop\git-course> git branch -D  feature3
+Deleted branch feature3 (was 7b12b63).
+PS C:\Users\omara\Desktop\git-course> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\omara\Desktop\git-course> git branch
+  feature1
+  feature2
+* main
+PS C:\Users\omara\Desktop\git-course> git switch -c feature3
+Switched to a new branch 'feature3'
+PS C:\Users\omara\Desktop\git-course> git branch
+  feature1
+  feature2
+* feature3
+  main
+PS C:\Users\omara\Desktop\git-course> git add admin.txt
+fatal: pathspec 'admin.txt' did not match any files
+PS C:\Users\omara\Desktop\git-course> git status
+On branch feature3
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        amdin.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\omara\Desktop\git-course> git add .\amdin.txt
+PS C:\Users\omara\Desktop\git-course> git commit -m "new admin added"
+[feature3 7a0eb16] new admin added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 amdin.txt
+PS C:\Users\omara\Desktop\git-course> git status
+On branch feature3
+nothing to commit, working tree clean
+PS C:\Users\omara\Desktop\git-course> git switch main 
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\omara\Desktop\git-course> git switch feature3
+Switched to branch 'feature3'
+PS C:\Users\omara\Desktop\git-course> git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\omara\Desktop\git-course> git push origin feature3
+Everything up-to-date
+PS C:\Users\omara\Desktop\git-course> git log --graph
+* commit 1f1e86648d0d5ec1e0e15984f68f1ec2dff28276 (HEAD -> main, tag: v1.1, origin/main)
+| Author: Omar <omaraljasem7@gmail.com>
+| Date:   Fri Apr 18 17:55:30 2025 +0200
+|
+|     processing data
+|
+* commit 1a64a1c968384ecbce773c214466623818c8b626 (tag: v1.0)
+| Author: Omar <omaraljasem7@gmail.com>
+| Date:   Fri Apr 18 17:34:44 2025 +0200
+|
+|     my second commit
+|
+*   commit 7056686a74204c756ec840973ffbff1d6ed2c5e8
+|\  Merge: c67d8e8 074fe52
+| | Author: Omar <omaraljasem7@gmail.com>
+| | Date:   Fri Apr 18 17:14:12 2025 +0200
+| |
+| |     Merge branch 'main' of https://github.com/omaraljasem7/GIT
+| |
+| * commit 074fe52939388656dc868eca0a520c259f01d9d3
+|   Author: omaraljasem7 <omaraljasem7@gmail.com>
+|   Date:   Fri Apr 18 16:43:33 2025 +0200
+|
+|       Initial commit
+|
+* commit c67d8e8aa2e910feac8bc44999c7816e8d2f2231
+  Author: Omar <omaraljasem7@gmail.com>
+  Date:   Fri Apr 18 16:56:19 2025 +0200
+
+      first commit
+PS C:\Users\omara\Desktop\git-course>
