@@ -32,3 +32,67 @@ index e38b12d..03ef6a5 100644
 git log -> will show you the commit history
 git log --oneline -> will show you the commit history in just one line 
 // to delete a file from the git repository -> git rm --cached FileName
+
+// How to get a clone a project from gitLab or GitHub -> copy the HTTPS or SSH better use HTTPS Link and then use:
+>git clone Link
+for example from GitLab: Clone with HTTPS https://git.thm.de/ti2_2025/mi6-2/ag25.git 
+to clone the project fro GitLab: git clone https://git.thm.de/ti2_2025/mi6-2/ag25.git -> now it is cloned in your machine 
+//How to push the git repository for the 1st time in the GitLab or GitHub
+/*
+If you want to crate your own repository on GitHub or GitLab -> go to your account 
+click on the add button -> create a new repository -> choose a name make some settings for exampe 
+public or private and if want to initalize a Readme.md file -> crete project or repository -> done 
+*/
+/*
+how to conncet the local repository to the remote repository
+advantge to use SSH you can push to the remote repository if you have a key
+but if you  push with HTTPS, everytime you should log in to push so better to
+push with the SSH Option
+*/
+/*
+How to create a key 
+ssh-keygen -o 
+*/
+/*
+Example 
+PS C:\Users\omara\Desktop\Technische Informatik Aufgabe> ssh-keygen -o       
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (C:\Users\omara/.ssh/id_ed25519):
+C:\Users\omara/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\omara/.ssh/id_ed25519
+Your public key has been saved in C:\Users\omara/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:a0QJj6XvOtNVbLJYPxdc/Yc59BldMSLGt5kp+P7vh3o omara@LAPTOP-0FI1JHFE
+The key's randomart image is:
++--[ED25519 256]--+
+|      . . .o . o*|
+|       * .....o.=|
+|      o + ...o==+|
+|       o .o.+=*.+|
+|        So.*.  o.|
+|       o..o.o .  |
+|       .+..  o . |
+|      oo.  .  E .|
+|      .o    o+oo.|
++----[SHA256]-----+
+*/
+-> fide the file in  .ssh
+see -> Your public key has been saved in C:\Users\omara/.ssh/id_ed25519.pub
+-> open the file that ends with .pub -> copy the key and go to the profile -> settings -> add SSH key -> paste and done 
+then in the git repository 
+-> some instctions from the GitLab 
+
+
+***
+cd existing_repo
+git remote add origin https://git.thm.de/oalj89/my-first-project-in-gitlab.git
+git branch -M master
+git push -uf origin master
+***
+
+-> insetad of HTTPS use the SSH 
+->  git remote add origin git@git.thm.de:oalj89/my-first-project-in-gitlab.git
+(Now there is a connection between the local repository and the remote repository)
