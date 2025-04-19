@@ -8,3 +8,4 @@ git config --global user.email "email@..." -> to set the email
 // git status -> show the status of our git repository
 // if you are in the branch master -> change to the main branch with git init -b main for 1st time
 // git restore --staged File name -> to take a file form the staging area to the working directory
+// to commit diectly wtihout staging -> git commit -a -m " " 
