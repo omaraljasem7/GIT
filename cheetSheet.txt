@@ -99,3 +99,4 @@ git push -uf origin master
 
 // to set a remote-Verbindung use 
 git remote set-url origin https://git.thm.de/ti2_2025/mi6-2/ag25.git
+
