@@ -96,3 +96,4 @@ git push -uf origin master
 -> insetad of HTTPS use the SSH 
 ->  git remote add origin git@git.thm.de:oalj89/my-first-project-in-gitlab.git
 (Now there is a connection between the local repository and the remote repository)
+
