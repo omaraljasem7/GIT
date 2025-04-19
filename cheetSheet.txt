@@ -29,3 +29,5 @@ index e38b12d..03ef6a5 100644
 +if i am in the working directroy i can use just git diff -> that will show me the differnce
 \ No newline at end of file
 */
+git log -> will show you the commit history
+git log --oneline -> will show you the commit history in just one line 
