@@ -31,3 +31,4 @@ index e38b12d..03ef6a5 100644
 */
 git log -> will show you the commit history
 git log --oneline -> will show you the commit history in just one line 
+// to delete a file from the git repository -> git rm --cashed FileName
