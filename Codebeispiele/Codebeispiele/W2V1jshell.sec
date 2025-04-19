@@ -1,0 +1,29 @@
+System.out.println("Hallo Wintersemester 2021/22")
+"Hallo WiSe 21/22"
+"Hallo" + " WiSe 21/22"
+System.out.print("Hallo Wintersemester 2021/22")
+System.out.print(42)
+System.out.print('a')
+System.out.print(3.1459)
+3.141
+23 + 19
+(23 + 19) * 2
+(23 + 19) / 2
+(23 + 19) % 2
+41 % 2
+41 / 2
+41.0 / 2.0
+$13
+$13 + $14
+String greeting = "Hello WiSe 2021/22";
+System.out.print(greeting)
+"Hallo " + 8
+"Hallo " + "8"
+"8" + 9
+9 + "0"
+9
+int myVar;
+double myDVar;
+String mySVar;
+mySVar = "ABC"
+mySVar = "" + 9

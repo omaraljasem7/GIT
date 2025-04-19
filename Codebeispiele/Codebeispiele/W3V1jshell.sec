@@ -1,0 +1,39 @@
+'1' + 1
+"1" + 1
+'1' + 11
+double pi = 3.14;
+double kreisFlaeche(double r) {
+    double pi = 3.14;
+    return r * r * pi;
+}
+kreisFlaeche(2.0);
+kreisFlaeche(9);
+Math.sin(1);
+double add(double a, double b) {
+    return a +  b;
+}
+double pi() {
+    return 3.141;
+}
+pi()
+add(1.0, 2.0 * 4.0)
+printAddition(3, 4)
+printAddition(3, 4 + 8)
+int u;
+char w;
+u = 10;
+u
+u + 11;
+int v = 42;
+{
+    int a;
+    a = 23;
+    int b = 42 + a;
+}
+{
+    int a;
+    a = 23;
+    int b = 42 + a; System.out.println(b);
+}
+int as = 45;
+int a = 45;

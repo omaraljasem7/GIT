@@ -1,0 +1,15 @@
+{
+    int i = 10, j = 11, k;
+}
+3 > 6
+kugelVolumen(2.0)
+kugelVolumen( -2.0 )
+double kugelVolumen (double r) { double pi = 3.14;
+    if (r < 0.0)
+      {
+        System.out.println("Falsche Eingabe" + r);
+        r = -1.0 * r; 
+    }
+    return 1.333 * pi * r * r * r;
+}
+kugelVolumen(-1.0)

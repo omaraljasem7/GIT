@@ -1,0 +1,23 @@
+3.14
+double pi = 3.14;
+double m = 1E6;
+1.250E6
+1E-2
+1E-3
+int x = 0;
+int y = 4;
+(x != 0) && (y / x > 4)
+(x != 0) & (y / x > 4)
+boolean b1, b2;
+boolean b1, b2;
+b1 = b2 = true;
+b1
+b1 = b2 = !true;
+b2
+int i, j;
+int i, j;
+i = (j = 5) * 6
+j
+i = j = 5 * 6
+j
+b1 = !(b2 = true)

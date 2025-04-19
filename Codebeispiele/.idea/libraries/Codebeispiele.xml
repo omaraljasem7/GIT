@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Codebeispiele">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/W14.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/W13.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/W13.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/Fragestunde.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/W8V1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/W15.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/W12.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/W12.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/W11.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Codebeispiele/W14.1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

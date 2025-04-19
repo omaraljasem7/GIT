@@ -1,0 +1,77 @@
+/**
+ * Diese Methode berechnet die Fakultät der Zahl n.
+ * @result Liefert den Wert von n!
+ */
+int fakultaet(int  n) {
+    if (n == 0) {
+        return 1;
+    } else {
+        return n * fakultaet(n - 1);
+    }
+}
+	
+	public static void main(String[] args) {
+		new Snippet().testAssumption();
+	}
+testAssumption()
+testAssumption()
+/**
+ * Diese Methode berechnet die Zahl e.
+ * @result Liefert einen approximativen Wert von e
+ */
+double eulerLeftToRight () {
+    double sum = 1.0f;
+    int i = 1;
+    while (i <= 15) {
+        sum = sum + 1.0f / fakultaet(i);
+        i = i + 1;
+    }
+    return sum;
+}
+/**
+ * Diese Methode berechnet die Zahl e.
+ * @result Liefert einen approximativen Wert von e
+ */
+double eulerRightToLeft () {
+    double sum = 0.0f;
+    int i = 15;
+    while (i >= 1) {
+        sum = sum + 1.0f / fakultaet(i);
+        i = i - 1;
+    }
+    return sum + 1.0f;
+}
+testAssumption()
+float a = +0.1f;
+float b = -0.1f;
+1 + a -b;
+1 + a +b;
+1 + a
+String.format("%.16f", 1 + a);
+String.format("%.16f", 1 + a - b);
+String.format("%.16f", 1 + a + b);
+	
+void testAssumption() {
+    double ltr, rtl;
+    ltr = eulerLeftToRight();
+    rtl = eulerRightToLeft();
+ if ((ltr - rtl) < 0.0001 && (ltr - rtl) > -0.0001) {
+        System.out.println("Die Ergebnisse sind gleich: " + ltr);
+    } else {
+        System.out.println("Die Ergebnise müssen gleich sein. Sie sind aber");
+        System.out.println("links nach rechts: " + String.format("%.16f", ltr));
+        System.out.println("rechts nach links: " + String.format("%.16f", rtl));
+    }}
+testAssumption()
+void testAssumption2() {
+    double ltr, rtl;
+    ltr = eulerLeftToRight();
+    rtl = eulerRightToLeft();
+ if (Math.abs(ltr - rtl) < 0.0001) {
+        System.out.println("Die Ergebnisse sind gleich: " + ltr);
+    } else {
+        System.out.println("Die Ergebnise müssen gleich sein. Sie sind aber");
+        System.out.println("links nach rechts: " + String.format("%.16f", ltr));
+        System.out.println("rechts nach links: " + String.format("%.16f", rtl));
+    }}
+testAssumption2()

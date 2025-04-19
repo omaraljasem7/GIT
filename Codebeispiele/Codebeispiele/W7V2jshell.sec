@@ -1,0 +1,56 @@
+m()
+void m() {System.out.println("Hello, World");}
+m()
+new Student("Max", "M", 12, 34);
+new Student("Christoph", "Bockisch", 12345, 12);
+$8
+$8.fachsemester
+new Student("Christoph", "Bockisch", 12345, 13);
+$8 == $11
+$8 == $8
+$11.fb
+$8.fb
+$11.fb = 2
+$11.fb
+$8
+$8.toString()
+class Student {
+    String vorname;
+    String nachname;
+    int matrnr;
+    int fb;
+    int fachsemester = 1;
+    
+    /**
+     * Ein Konstruktor der Klasse Student.
+     */
+    Student(String v, String n, int mnr, int f) {
+        vorname = v;
+        nachname = n;
+        matrnr = mnr;
+        fb = f;
+        fachsemester = 2;
+    } 
+    
+    public String toString() {
+        return nachname + " " + matrnr;
+    }
+}
+$8.toString()
+new Student("Christoph", "Bockisch", 12345, 12);
+$22.toString()
+$22
+System.out.println($22)
+new Student2()
+new Student2("Christoph")
+$29.name
+new Student2("Christoph")
+$32.name
+class Student2 {
+  String name;
+  Student2(String n) {
+     name = n;
+  }
+}
+new Student2("Christoph")
+$35.name

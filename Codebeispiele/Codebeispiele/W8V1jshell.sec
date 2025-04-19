@@ -1,0 +1,65 @@
+new Konto("123", 1.0, 987)
+new Konto("123", 1.0, 987)
+$4.kontoNr
+k.kontoStand
+k.kontoNr
+void printKonto(Konto k) {
+    System.out.println(k);
+}
+printKonto(k)
+Konto k = new Konto().setKontoNr("123").setKontoStand(1.1);
+k.print()
+new Konto()
+$16.abheben(10)
+
+;
+Konto.setDispo(2.0)
+Konto.setDispo(2.0)
+;
+// Konto k = new Konto().setKontoNr("123").setKontoStand(1.1);
+Konto.setDispo(2.0);
+Konto.setDispo(2.0)
+Konto.dispo
+Konto.setDispo(.0)
+Konto.dispo
+class Konto {
+	
+	private String kontoNr;
+	private double kontoStand;
+	private int kundenNr;
+
+	public static double dispo;
+
+	public static void setDispo(double dispo) {
+		dispo = dispo;
+	}
+
+	 Konto setKontoNr(String kontoNr) {
+	 	this.kontoNr = kontoNr;
+	 	return this;
+	 }
+
+	 Konto setKontoStand(double kontoStand) {
+	 	this.kontoStand = kontoStand;
+	 	return this;
+	 }
+
+	public double abheben(double betrag) {
+	 	if (betrag < kontoStand) {
+	 		kontoStand -= betrag;
+	 		log("Abheben");
+	 		return betrag;
+	 	}
+	 	else {
+	 		log("Kein Erfolg");
+	 		return 0.0;
+	 	}
+	 }
+	
+	private void log(String msg) {
+		System.out.println(this + msg);
+	}
+
+}
+Konto.setDispo(20.0)
+Konto.dispo
