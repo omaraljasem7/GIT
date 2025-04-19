@@ -9,3 +9,23 @@ git config --global user.email "email@..." -> to set the email
 // if you are in the branch master -> change to the main branch with git init -b main for 1st time
 // git restore --staged File name -> to take a file form the staging area to the working directory
 // to commit diectly wtihout staging -> git commit -a -m " " 
+// to find the difference in the file what changes did i make in the same file 
+if i am in the working directroy i can use just git diff -> that will show me the differnce
+/*
+Example 
+PS C:\Users\omara\Desktop\Technische Informatik Aufgabe> git diff
+diff --git a/cheetSheet.txt b/cheetSheet.txt
+index e38b12d..03ef6a5 100644
+--- a/cheetSheet.txt
++++ b/cheetSheet.txt
+@@ -8,4 +8,6 @@ git config --global user.email "email@..." -> to set the email
+ // git status -> show the status of our git repository
+ // if you are in the branch master -> change to the main branch with git init -b main for 1st time
+ // git restore --staged File name -> to take a file form the staging area to the working directory
+-// to commit diectly wtihout staging -> git commit -a -m " "
+\ No newline at end of file
++// to commit diectly wtihout staging -> git commit -a -m " " 
++// to find the difference in the file what changes did i make in the same file 
++if i am in the working directroy i can use just git diff -> that will show me the differnce
+\ No newline at end of file
+*/
