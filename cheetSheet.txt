@@ -97,3 +97,5 @@ git push -uf origin master
 ->  git remote add origin git@git.thm.de:oalj89/my-first-project-in-gitlab.git
 (Now there is a connection between the local repository and the remote repository)
 
+// to set a remote-Verbindung use 
+git remote set-url origin https://git.thm.de/ti2_2025/mi6-2/ag25.git
