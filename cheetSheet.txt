@@ -1,0 +1,10 @@
+// push this file in the end of the session
+git init -> to crate a new git repository 
+git config --global --list -> to get the configurations 
+git config --global user.name "name" ->  to set the name
+git config --global user.email "email@..." -> to set the email
+// working directory -> staging area -> local git repository 
+// to share this local git repository share it with the remote repository
+// git status -> show the status of our git repository
+// if you are in the branch master -> change to the main branch with git init -b main for 1st time
+// git restore --staged File name -> to take a file form the staging area to the working directory
